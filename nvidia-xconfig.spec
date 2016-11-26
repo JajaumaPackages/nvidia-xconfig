@@ -1,5 +1,5 @@
 Name:           nvidia-xconfig
-Version:        367.57
+Version:        375.20
 Release:        1%{?dist}
 Summary:        NVIDIA xorg.conf configurator
 
@@ -37,6 +37,9 @@ mv %{buildroot}%{_bindir} %{buildroot}%{_sbindir}
 
 
 %changelog
+* Sun Nov 27 2016 Jajauma's Packages <jajauma@yandex.ru> - 375.20-1
+- Update to latest upstream version
+
 * Thu Oct 20 2016 Jajauma's Packages <jajauma@yandex.ru> - 367.57-1
 - Update to latest upstream release
 
