@@ -1,5 +1,5 @@
 Name:           nvidia-xconfig
-Version:        381.22
+Version:        384.90
 Release:        1%{?dist}
 Summary:        NVIDIA xorg.conf configurator
 
@@ -37,6 +37,9 @@ mv %{buildroot}%{_bindir} %{buildroot}%{_sbindir}
 
 
 %changelog
+* Mon Oct 23 2017 Jajauma's Packages <jajauma@yandex.ru> - 384.90-1
+- Update to latest upstream release
+
 * Sun May 14 2017 Jajauma's Packages <jajauma@yandex.ru> - 381.22-1
 - Update to latest upstream release
 - Fix broken FTP D/L link
